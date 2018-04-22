@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wshwsh.company_directory_app.MainActivity"
+    android:orientation="vertical"
+
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="40dp"
+        android:layout_weight="1"
+        android:background="@drawable/company_image"
+        android:paddingTop="30dp"
+        android:scaleType="centerCrop" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UXBERT"
+        android:textSize="32dp"
+        android:paddingLeft="30dp"
+        android:paddingTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone: +96611 462 2211"
+        android:paddingLeft="30dp"
+        android:paddingTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Website: www.uxbert.com"
+        android:paddingLeft="30dp"
+        android:paddingTop="20dp"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address: Olaya St, Al Olaya, Nemer Center 1, Corner of Olaya and Musa Bin Nusair Street، Riyadh 12214"
+        android:paddingLeft="30dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="40dp"/>
+
+</LinearLayout>
